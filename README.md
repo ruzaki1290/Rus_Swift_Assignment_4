@@ -1,45 +1,41 @@
 # Rus Swift Assignment 4
 
-## About 🔎
+Here is an improved version of the text:
 
-This program allows the Camper superclass and three protocols: Trailer, WaterSystem and ElectricSystem. The main purpose of this system is to allow the user to be able to fill up and use the water tank for shower, which is running on engine, which is powered by a battery.  All of the protocols are interconnected with each other and are ment to be used in order. Details of usage and further explanations will follow.
+Certainly! Here's the revised text with additional emojis:
 
-## Usage 🔧
+## Overview 🔍
 
-1. You want to take a shower and turn on the switch for the water to run. In order to do that, you call this function:  
+This program defines the Camper superclass and three protocols: Trailer, WaterSystem, and ElectricSystem. 🚐 The primary objective of this system is to enable users to fill up and utilize the water tank for a shower, running on an engine powered by a battery. These protocols are interconnected and intended to be used in a specific order. More detailed usage instructions and explanations are provided below.
+
+## How to Use 🔧
+
+1. To initiate the process of draining the water tank for a shower, use the following function:
 
 ```Swift
-
 trailerParkBoys.drainWaterTank()
-
 ```
 
-2. However, the watter is not running. It might be that you have to turn on the switch first. To check whether the switch is on, you call this function:
+2. If the water is not flowing, ensure that the shower switch is turned on. Verify the status of the switch by calling:
 
 ```Swift
-
 trailerParkBoys.displayShowerSwitch()
-
 ```
 
-3. If the switch is off, you use this function to tuggle switch on and off:
+3. If the switch is off, toggle it on/off using this function:
 
 ```Swift
-
 trailerParkBoys.showerSwitch()
-
 ```
 
-4. The switch is on, but the watter is still not running, because you need electirc power as well. Call this function to turn on the power:
+4. When the shower switch is on but the water is still not running, you may need to activate the electrical power. Start the engine with the following function:
 
-```
-
+```Swift
 trailerParkBoys.engineStart()
-
 ```
 
-5. Now, when the shower switch is ON and engine is running, you should be able to drain the water tank and take shower 🚿 Enjoy! 😌
+5. With the shower switch on and the engine running, you can now drain the water tank and enjoy your shower. Have a refreshing experience! 🚿😌
 
-## Questions 🙋🏻‍♂️
+## Questions or Support 🙋🏻‍♂️
 
-If you have questions regarding using this program, please reach out to me on my GitHup [page](https://github.com/ruzaki1290)
+If you have any questions or need assistance with using this program, feel free to contact me on my GitHub [page](https://github.com/ruzaki1290) 💬
